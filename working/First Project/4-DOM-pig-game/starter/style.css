@@ -17,6 +17,14 @@
 
 .final-score-input:focus { outline: none;}
 
+#dice-1 {
+  top: 130px;
+}
+
+#dice-2 {
+  top: 260px;
+}
+
 * {
     margin: 0;
     padding: 0;

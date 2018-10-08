@@ -7,7 +7,7 @@ var previousDiceRoll;
 document.querySelector('.btn-roll').addEventListener('click', function(){
   if (gameInPlay) {
     var dice = Math.floor(Math.random() * 6) + 1;
-    
+
     var diceDOM1 = document.querySelector('.dice');
     diceDOM1.style.display = 'block';
     diceDOM1.src = 'dice-' + dice + '.png';
@@ -61,7 +61,7 @@ function initialiseGame() {
   activePlayer = 0;
   gameInPlay = true;
 
-  document.querySelector('.dice').style.display = 'none';
+  //document.querySelector('.dice').style.display = 'none';
 
 
   document.getElementById('score-0').textContent = '0';
