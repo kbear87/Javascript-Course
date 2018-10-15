@@ -28,5 +28,3 @@ var kitty2 = kitty1;    // variable kitty2 points to the kitty1 object.  It is n
 kitty1.age = 5;
 console.log(kitty2.age);
 console.log(kitty1.age);
-
-//functions

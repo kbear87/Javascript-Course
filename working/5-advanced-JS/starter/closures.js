@@ -25,9 +25,11 @@ var franceRetirementAge = retirement(62);
 
 //Challenge
 
-function interviewQuestion(job) {              // With closures you only need the one internal function for this example.
+function interviewQuestion(job) {
+             // With closures you only need the one internal function for this example.
   return function(name) {
     if (job === 'designer') {
+
       console.log(name + ' what is UX design?');
     } else if (job === 'teacher') {
       console.log(name + ' what do you teach?');
