@@ -56,5 +56,5 @@ function isFullAge(limit, element) {
 var ages = arrayCalculator(years, calculateAge);
 console.log(ages);
 
-var fullAgeJapan = arrayCalculator(ages,isFullAge.bind(this, 20)); //preset the limit argument in the isFullAge function.
+var fullAgeJapan = arrayCalculator(ages,isFullAge.bind(this, 20)); //this makes a copy of full age function where you can set the argument.
 console.log(fullAgeJapan);

@@ -1,6 +1,7 @@
 // The this keyword,
 
 //First and most common rule to tell what the this keyword is referencing : Implicit Binding.
+//In a function constructor, the this keyword is a substitute for the new object.  When the new object is created this will become the new object.
 
 // Here we have an object called 'user'.
 const user = {
