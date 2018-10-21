@@ -4,7 +4,7 @@ import React from 'react';   // First import React from the 'react' package so t
 
 
 // In it's simplest form, a component is a function that returns some JSX.
-const person = (props) => {
+const person = (props) => {   {/* props allows you to pass data from the parent component to the child component*/}
   return (
   <div>
      <p>Sweet Tubbs loves {props.food}</p>
