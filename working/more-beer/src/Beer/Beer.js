@@ -4,8 +4,8 @@ import './beer.css';
 const beer = (props) => {
   return (
     <div className="beer">
-      <h3 onClick={props.onBeerClicked}>Beer: {props.name} </h3>
-      <input type="text" onChange={props.changeNameInput} value={props.name}/>
+      <p onClick={props.deleteBeer}>Beer: {props.name}</p>
+      <input type="text" onChange={props.changeName} value={props.name}/>
     </div>
   )
 }

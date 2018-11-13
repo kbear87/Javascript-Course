@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import classes from './App.css';
 import Beer from './Beer/Beer';
 
 class App extends Component {
@@ -69,16 +69,16 @@ class App extends Component {
     let stylingClasses = [];
 
     if (this.state.beerNames.length <= 2) {
-      stylingClasses.push('pink');
+      stylingClasses.push(classes.pink);
     }
 
     if (this.state.beerNames.length <= 1) {
-      stylingClasses.push('bold');
+      stylingClasses.push(classes.bold);
     }
 
 
     return (
-      <div className="App">
+      <div className={classes.App}>
          <h1>Beers</h1>
          <p className={stylingClasses.join(' ')}>Lots of beers!</p>
          {beerComponents}
