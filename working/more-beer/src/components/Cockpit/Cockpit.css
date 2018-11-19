@@ -1,0 +1,28 @@
+.pink {
+  color: #f8588f;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.Button {
+  background-color: darkslategrey;
+  font: inherit;
+  color: white;
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #ff66a3;
+}
+
+.Button.Blue {
+  background-color: #9999ff;
+}
+
+.Button.Blue:hover {
+  background-color: #0099cc;
+}
